@@ -191,18 +191,28 @@ section{
     display: flex;
     align-items:center;
 }
+.right-side .profile-title .profile-left .image img{
+    border-radius: 50%;
+}
 .right-side .profile-title .profile-left{
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 0px;
+}
+.right-side .profile-title .profile-left .details{
+    padding-bottom: 3px;
+    margin-left: 10px;
 }
 .right-side .profile-title .profile-left .details.name{
     padding-bottom: 3px;
 }
+.right-side .profile-title .profile-right{
+    margin-left: 115px;
+}
 .suggestions{
     display: flex;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 .suggestions p{
     margin-right: 90px;
@@ -210,7 +220,7 @@ section{
 .suggestion-title{
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .suggestion-title .suggestion-left{
     display: flex;
@@ -226,7 +236,7 @@ section{
     padding-bottom: 3px;
 }
 .suggestion-title .suggestion-right p{
-    margin-left: 13px;
+    margin-left: 60px;
 }
 
 @media (max-width:992px){
